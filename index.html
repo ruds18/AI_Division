@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero-cards.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="vendor/aos/aos.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- <div class="description panel blue">
+        <div><h1>Layered pinning</h1>
+          <p>Use pinning to layer panels on top of each other as you scroll.</p>
+          <div class="scroll-down">Scroll down<div class="arrow"></div></div>
+        </div>
+      </div> -->
+      
+      
+      <section class="panel">
+        <div class="hero-card hero-one">
+            <div class="main-heading">
+                <h2>AI Division</h2>
+            </div>
+            <div class="quote-container">
+                <p>“Artificial Intelligence The Integral part of daily life”</p>
+            </div>
+            <div class="VITB-container">
+                <h4>VIT-BHOPAL</h4>
+            </div>
+        </div>
+      </section>
+      <section class="panel orange">
+        <div class="hero-card hero-two">
+            <div class="main-heading">
+                <h2>AI Division</h2>
+            </div>
+            <div class="quote-container">
+                <p>“Artificial Intelligence The Integral part of daily life”</p>
+            </div>
+            <div class="VITB-container">
+                <h4>VIT-BHOPAL</h4>
+            </div>
+        </div>
+      </section>
+
+          <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <a href="index.html"><img src="https://avatars.githubusercontent.com/u/80619013?s=280&v=4" alt="" class="img-fluid"></a>
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto" href="#about">Events</a></li>
+                <li><a class="nav-link scrollto" href="#team-c">People</a></li>
+                <li><a class="nav-link scrollto " href="https://medium.com/ai-club-vit-bhopal">Blogs</a></li>
+                <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+        
+        </div>
+    </header>
+    <!-- End Header -->
+    <main>
+      <section class="panel purple">
+        <div class="hero-card hero-three">
+            <div class="main-heading">
+                <h2>AI Division</h2>
+            </div>
+            <div class="quote-container">
+                <p>“Artificial Intelligence The Integral part of daily life”</p>
+            </div>
+            <div class="VITB-container">
+                <h4>VIT-BHOPAL</h4>
+            </div>
+        </div>
+      </section>
+      <section class="panel green">
+        <div class="hero-card hero-four">
+            <div class="main-heading">
+                <h2>AI Division</h2>
+            </div>
+            <div class="quote-container">
+                <p>“Artificial Intelligence The Integral part of daily life”</p>
+            </div>
+            <div class="VITB-container">
+                <h4>VIT-BHOPAL</h4>
+            </div>
+        </div>
+      </section>
+      <section class="panel" style="background-color:white;">
+        <h1 style="color:black">Hi hello yellow yellow</h1><br>
+        <h1 style="color:black">Hi hello yellow yellow</h1>
+       </section>     
+    </main> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+            gsap.utils.toArray(".panel").forEach((panel, i) => {
+            ScrollTrigger.create({
+                trigger: panel,
+                start: "top top", 
+                pin: true, 
+                pinSpacing: false,
+                snap: 1
+            });
+        });
+
+      </script>   
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+          AOS.init();
+      </script>
+      <!-- Template Main JS File -->
+      <script src="js/main.js"></script>   
+</body>
+</html>
