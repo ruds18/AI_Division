@@ -26,6 +26,7 @@
     font-family: "Kanit";
 }
 
+
 .hero-one{
     background-image: url(../images/back.png);
     background-attachment: fixed;
@@ -59,18 +60,21 @@
 }
 .hero-card .main-heading {
 
-    width: clamp(15rem,40%,30rem);
+    width: clamp(14rem,40%,39rem);
     background: linear-gradient(-90deg,#4115f231,rgba(23, 58, 236, 0) 100%),
     linear-gradient(90deg, #0cffff41, rgba(7, 238, 211, 0) 100%);
     border-radius: 20px;
     
 }
 
+
 .main-heading h2 {
-    font-size: clamp(1.8rem,4vw,4rem);
-    padding: 1rem;
+    font-size: clamp(1.8rem,4vw,5rem);
+    padding: 1rem 2rem;
     color: white;
 }
+
+
 
 .hero-card .quote-container {
     width: clamp(5rem,40vw,20rem);
@@ -87,11 +91,11 @@
     position: absolute;
     content: '';
     height: 2px;
-    top: -10px; 
+    top: -20px; 
     margin: 0 auto;
     left: 0;
     right: 0;
-    width: 80%;
+    width: 90%;
     background: transparent;
 }
 
@@ -103,7 +107,7 @@
     margin: 0 auto;
     left: 0;
     right: 0;
-    width: 80%;
+    width: 90%;
     background: transparent;
 }
 
@@ -138,3 +142,5 @@
         background-color: white;
     }
 }
+
+/* ABOUT */
