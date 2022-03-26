@@ -1,0 +1,41 @@
+
+.gallery-card {
+    width: 100%;
+    height: 900px;
+    /* background-color: rgba(207, 86, 92, 0.582); */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .owl-nav .owl-next {
+    height: 100%;
+    width: 30px;
+    position: absolute;
+    top: -5px;
+    right: -2px;
+    opacity: 1;
+    font-size: 40px !important;
+    z-index: 1;
+}
+
+.gallery .owl-nav .owl-prev {
+    height: 100%;
+    width: 30px;
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    opacity: 1;
+    font-size: 40px !important;
+    z-index: 1;
+}
+
+.gallery .owl-nav .owl-prev,.gallery  .owl-nav .owl-next {
+    color: rgb(26, 11, 11) !important;
+}
+
+.gallery .owl-nav .owl-prev:hover,.gallery .owl-nav .owl-next:hover {
+    background: rgba(255, 255, 255, 0) !important;
+    color: rgb(15, 12, 12) !important;
+}
