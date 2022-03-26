@@ -15,8 +15,10 @@
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
+  color: black;
+ background-color: rgba(94, 88, 170, 0.945);
+  padding: 2.5rem 0;
   /* background: #fff; */
-  background-image: linear-gradient(to right bottom, rgb(21, 17, 17),rgb(62, 61, 61));
   box-shadow: 0 4px 10px -3px rgba(191, 191, 191, 0.5);
 }
 
