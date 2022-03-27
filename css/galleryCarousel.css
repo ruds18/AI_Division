@@ -1,19 +1,19 @@
 
 .gallery-card {
     width: 100%;
-    height: 900px;
+    height: 650px;
     /* background-color: rgba(207, 86, 92, 0.582); */
     color: #fff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:bottom;
+    align-items: bottom;
 }
 
 .gallery .owl-nav .owl-next {
     height: 100%;
     width: 30px;
     position: absolute;
-    top: -5px;
+    top: 160px;
     right: -2px;
     opacity: 1;
     font-size: 40px !important;
@@ -24,7 +24,7 @@
     height: 100%;
     width: 30px;
     position: absolute;
-    top: -5px;
+    top: 160px;
     left: -2px;
     opacity: 1;
     font-size: 40px !important;
