@@ -1,0 +1,38 @@
+#footer{
+    background-color: #43345d;
+}
+
+#footer .col-6 h3, p {
+    color:white; 
+}
+
+#footer .row .col-6 .row .col-4 a{
+    text-decoration:none;
+    text-align: left;
+}
+
+.f-social{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width : 110%;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.nav-link-social{
+    display:flex;
+    flex-flow:row;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.nav-link-social .f-item a, a h4, .f-socials a{
+    text-decoration:none;
+    text-align: left;
+    color:white;
+}
+
+.nav-link-social .f-item {
+    width:50%;
+}
