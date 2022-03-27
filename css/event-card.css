@@ -8,6 +8,9 @@
     position: absolute;
     color: white;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .event-heading h2{
     font-size: 3.4rem;
@@ -15,8 +18,8 @@
     border: 2px solid white;
     border-radius: 25px; 
     padding: 5px 5px;
-    margin-left:500px ;
-    margin-right:500px ;
+    width: fit-content;
+    padding: 0 15%;
 }
 
 .econtainer {

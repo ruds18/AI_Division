@@ -179,7 +179,7 @@
    font-weight: 600;
    position: relative;
    font-size: clamp(2rem,3vmax,4rem);
-
+    margin-bottom: 2rem;
 }
 .about-body p{
     font-weight: 400;
@@ -215,10 +215,11 @@
 @media only screen and (max-width: 1024px) {
     .about-container{
         flex-direction: column;
+        padding-top: 0;
     }
     .about-body {
         width: 100%;
-        padding: 4rem 0;
+        padding: 2rem 0;
         text-align: left;
     }
     .about-container .image-container {
