@@ -27,7 +27,7 @@
     flex-wrap: wrap;
 }
 
-.nav-link-social .f-item a, a h4, .f-socials a{
+.nav-link-social .f-item a,.nav-link-social .f-item a h4, .f-socials a{
     text-decoration:none;
     text-align: left;
     color:white;
