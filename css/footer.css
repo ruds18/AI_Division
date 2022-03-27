@@ -2,7 +2,7 @@
     background-color: #43345d;
 }
 
-#footer .col-6 h3, p {
+#footer .col-6 h3,#footer .col-6 p {
     color:white; 
 }
 
@@ -35,4 +35,14 @@
 
 .nav-link-social .f-item {
     width:50%;
+}
+
+.made-by-text{
+    color:white;
+}
+
+.l-footer{
+    display:flex;
+    flex-flow:row;
+    flex-wrap: wrap;
 }
