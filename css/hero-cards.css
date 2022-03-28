@@ -58,6 +58,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.hero-one .vit-logo{
+    position: absolute;
+    top: 1rem;
+}
+.hero-one .vit-logo img{
+    height: 15%;
+    width: 15%;
+}
 .hero-card .main-heading {
 
     width: clamp(14rem,40%,39rem);
@@ -120,8 +128,20 @@
     letter-spacing: 0.18em;
     color: #FFFFFF;
 }
-
 @media only screen and (min-width: 991px) {
+    .hero-one .vit-logo{
+        position: absolute;
+        top: 1rem;
+    }
+    .hero-one .vit-logo img{
+        height: 15%;
+        width: 15%;
+        position: relative;
+        left: -42%;
+    }
+}
+@media only screen and (min-width: 991px) {
+    
     .main-heading {
         position: absolute;
         top: 6rem;
