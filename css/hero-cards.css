@@ -164,6 +164,7 @@
         position: absolute;
         bottom: 2rem;
         right: 2rem;
+        right: 2rem;
     }
     
     .hero-card .quote-container::before,.hero-card .quote-container::after {
