@@ -15,19 +15,27 @@
     display:flex;
     flex-flow: row;
     justify-content: space-between;
-    width : 110%;
+    width : 120%;
     flex-wrap: wrap;
     margin-top: 5px;
 }
 
+.f-socials a h4{
+    text-align: center;
+    /* margin-left: 3rem; */
+    margin-left: 4.5vw;
+}
 .nav-link-social{
     display:flex;
     flex-flow:row;
-    width:100%;
+    width:70%;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+    margin: auto;
 }
 
-.nav-link-social .f-item a,.nav-link-social .f-item a h4, .f-socials a{
+.nav-link-social a,.nav-link-social a h3, .f-socials a, .f-socials a:hover{
     text-decoration:none;
     text-align: left;
     color:white;
@@ -45,4 +53,19 @@
     display:flex;
     flex-flow:row;
     flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.l-footer p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bi-suit-heart-fill:hover{
+    width: 2rem;
+}
+
+.f-social a svg:hover{
+    fill:white;
 }
