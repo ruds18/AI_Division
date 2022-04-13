@@ -63,8 +63,8 @@
     top: 1rem;
 }
 .hero-one .vit-logo img{
-    height: 15%;
-    width: 15%;
+    height: max(15%,10rem);
+    width: max(15%,10rem);
 }
 .hero-card .main-heading {
 
@@ -89,7 +89,7 @@
     font-family: 'Inter';
     font-style: italic;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: max(3vw,1.4rem);
     line-height: 44px;
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #000000;
@@ -138,6 +138,14 @@
         width: 15%;
         position: relative;
         left: -42%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .hero-card{
+        justify-content: center;
+    }
+    .hero-one .vit-logo img{
+        position: static;
     }
 }
 @media only screen and (min-width: 991px) {
