@@ -33,6 +33,16 @@ flex-wrap: wrap;
 padding : 30px; 
 }
 
+.econtainer a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #AD7D52;
+}
+
+.econtainer a:hover{
+    color: #92653e;
+}
+
 .econtainer .ecard {
 position: relative;
 max-width : 300px;
